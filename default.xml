@@ -422,4 +422,10 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
+  <!-- Custom -->
+  <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="snowdroid" revision="android-4.4.2_r2" />
+  <project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" remote="snowdroid" revision="kitkat-mr1" />
+  <project path="vendor/SnowDroid" name="vendor_snowdroid" remote="snowdroid" revision="android-4.4.2_r2" />
+  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-11.0" />
+
 </manifest>
