@@ -2,7 +2,11 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
+      fetch="https://android.googlesource.com/"/>
+  <remote  name="github"
+      fetch="https://github.com/"/>
+  <remote  name="snowdroid"
+      fetch="https://github.com/SnowDroid/"/>
   <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
            sync-j="4" />
