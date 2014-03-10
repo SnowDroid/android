@@ -424,6 +424,7 @@
 
   <!-- Custom -->
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="snowdroid" revision="android-4.4.2_r2" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-11.0" />
   <project path="external/koush/Superuser" name="koush/Superuser" remote="github" revision="master" />
   <project path="external/koush/Widgets" name="koush/Widgets" remote="github" revision="master" />
   <project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" remote="snowdroid" revision="kitkat-mr1" />
