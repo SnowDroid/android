@@ -7,7 +7,7 @@
       fetch="https://github.com/"/>
   <remote  name="snowdroid"
       fetch="https://github.com/SnowDroid/"/>
-  <default revision="refs/tags/android-5.0.0_r2"
+  <default revision="refs/tags/android-5.0.0_r7"
            remote="aosp"
            sync-j="4" />
 
@@ -506,5 +506,6 @@
   <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" clone-depth="1" />
   <project path="vendor/SnowDroid" name="vendor_snowdroid" remote="snowdroid" revision="android-5.0.0_r2" />
+  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-12.0" />
 
 </manifest>
